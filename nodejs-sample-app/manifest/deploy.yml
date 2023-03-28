@@ -14,7 +14,7 @@ spec:
     spec:                   
       containers: 
       - name: nodejs-app 
-        image: papp012/nodejs-sample-app
+        image: docker.io/papp012/nodejs-sample-app
         ports:
         - containerPort: 8081
 ---
