@@ -25,8 +25,7 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    matchLabels:
-      app: nodejs-app
+    app: nodejs-app
   ports:
     - port: 80
       targetPort: 8081
